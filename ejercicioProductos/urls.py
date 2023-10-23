@@ -26,4 +26,8 @@ urlpatterns = [
     path("juguetes/",juguetes),
     path("ropa/",ropa),
     path("datos/",datos),
+    path("dato1/",dato1),
+    path("dato2/",dato2),
+    path("dato3/",dato3)
+
 ]
