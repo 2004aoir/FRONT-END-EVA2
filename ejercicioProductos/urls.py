@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from productosApp.views import*
+from datosApp2.views import*
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +25,5 @@ urlpatterns = [
     path("electronica/",electronica),
     path("juguetes/",juguetes),
     path("ropa/",ropa),
+    path("datos/",datos),
 ]
